@@ -22,58 +22,30 @@
         <section class="containerSectionList">
             <main class="contrainerList">
                 <div class="ContainerInput">
-                    <form>
-                        <input placeholder="Digite o nome a tarefa"/>
+                    <form id="task-form">
+                        <input id="task-input" placeholder="Digite o nome a tarefa"/>
                     </form>
-                    <button><i class="ph ph-plus"></i></button>
+                    <button id="add-task-btn"><i class="ph ph-plus"></i></button>
                 </div>
 
                 <div class="containerInfoTasks">
                     <div class="qtdeTasks">
                         <p>Criadas</p>
-                        <div class="InfoQtdeTasks">4</div>
+                        <div id="created-tasks-count" class="InfoQtdeTasks">0</div>
                     </div>
                     <div class="qtdeTasks">
                         <p>Concluídas</p>
-                        <div class="InfoQtdeTasks">0</div>
+                        <div id="completed-tasks-count" class="InfoQtdeTasks">0</div>
                     </div>
                 </div>
 
-                <div class="cardTask">
-                    <div>
-                        <button type="radio"></button>
-                        <p>Fazer caminhada as 05:00</p>
-                    </div>
-                    <button><i class="ph ph-trash"></i></button>
-
-                </div>
-                <div class="cardTask">
-                    <div>
-                        <button type="radio"></button>
-                        <p>ir para o trabalho as 07:40</p>
-                    </div>
-                    <button><i class="ph ph-trash"></i></button>
-
-                </div>
-                <div class="cardTask">
-                    <div>
-                        <button type="radio"></button>
-                        <p>Ir para o basquete as 19:30</p>
-                    </div>
-                    <button><i class="ph ph-trash"></i></button>
-
-                </div>
-                <div class="cardTask">
-                    <div>
-                        <button type="radio"></button>
-                        <p>Fazer almoço para o proximo dia as 22:00</p>
-                    </div>
-                    <button><i class="ph ph-trash"></i></button>
-
+                <div id="task-list">
+                    <!-- Tarefas dinâmicas serão inseridas aqui -->
                 </div>
             </main>
         </section>
     </div>
     
+    <script src="js/script.js"></script>
 </body>
 </html>
