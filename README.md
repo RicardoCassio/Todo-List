@@ -20,5 +20,5 @@ Clone the project and then run index.html
 This project is built exclusively with 'pure' JavaScript, HTML and CSS, without any use of external frameworks or libraries.
 
 ## Screenshots
-![ToDoList1 Image](https://github.com/RicardoCassio/Todo-List/blob/master/assets/logo_example.jpeg)
+![ToDoList1 Image](https://github.com/RicardoCassio/Todo-List/blob/master/assets/example1.png)
 ![ToDoList2 Image](https://github.com/RicardoCassio/Todo-List/blob/master/assets/example2.png)
