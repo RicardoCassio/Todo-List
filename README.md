@@ -20,4 +20,5 @@ Clone the project and then run index.html
 This project is built exclusively with 'pure' JavaScript, HTML and CSS, without any use of external frameworks or libraries.
 
 ## Screenshots
-![Calculator Image](https://github.com/RicardoCassio/Calculator/blob/master/screenshots/screen1.png)
+![ToDoList1 Image](https://github.com/RicardoCassio/Todo-List/blob/master/assets/logo_example.jpeg)
+![ToDoList2 Image](https://github.com/RicardoCassio/Todo-List/blob/master/assets/example2.png)
